@@ -8,7 +8,7 @@ const cors = require('cors');
 
 // to solve cors error
 app.use(cors({
-    origin:"http://localhost:3000",
+    origin:"https://mernfront-m7z2.onrender.com",
     methods:["GET", "POST", "PUT", "DELETE"]
 }))
 
